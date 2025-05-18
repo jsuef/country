@@ -5,6 +5,7 @@
 /vendor
 /coverage.txt
 /coverage.*
+/coverage
 # Binaries for programs and plugins
 *.exe
 *.exe~
