@@ -1,34 +1,38 @@
 <img align=right width="168" src="docs/gouef_logo.png">
 
-# github-lib-template
-Github template for new libraries
+# Country
+This package provides functions to search for country information ([ISO 3166-1](https://www.iso.org/iso-3166-country-codes.html)) based on their country codes (Alpha-2, Alpha-3, Numeric) and names. It is designed for easy integration into applications that need to work with country codes or names.
 
-[![Static Badge](https://img.shields.io/badge/Github-jsuef%2Fgithub--lib--template-blue?style=for-the-badge&logo=github&link=github.com%2Fjsuef%2Fgithub-lib-template)](https://github.com/jsuef/github-lib-template)
 
-[![GoDoc](https://pkg.go.dev/badge/github.com/jsuef/github-lib-template.svg)](https://pkg.go.dev/github.com/jsuef/github-lib-template)
-[![GitHub stars](https://img.shields.io/github/stars/jsuef/github-lib-template?style=social)](https://github.com/jsuef/github-lib-template/stargazers)
-[![Go Report Card](https://goreportcard.com/badge/github.com/jsuef/github-lib-template)](https://goreportcard.com/report/github.com/jsuef/github-lib-template)
-[![codecov](https://codecov.io/github/jsuef/github-lib-template/branch/main/graph/badge.svg?token=YUG8EMH6Q8)](https://codecov.io/github/jsuef/github-lib-template)
+[![Static Badge](https://img.shields.io/badge/Github-jsuef%2Fcountry-blue?style=for-the-badge&logo=github&link=github.com%2Fjsuef%2Fcountry)](https://github.com/jsuef/github-lib-template)
+
+[![NPM](https://img.shields.io/npm/v/@jsuef/country.svg?style=flat-square)](https://www.npmjs.com/package/@jsuef/country)
+[![GitHub stars](https://img.shields.io/github/stars/jsuef/country?style=social)](https://github.com/jsuef/country/stargazers)
+[![Downloads](https://img.shields.io/npm/dm/@jsuef/country.svg?style=flat-square)](https://www.npmjs.com/package/@jsuef/country)
+[![Build](https://github.com/jsuef/country/actions/workflows/release.yml/badge.svg)](https://github.com/jsuef/country/actions/workflows/release.yml)
+[![Codecov](https://codecov.io/gh/jsuef/country/branch/main/graph/badge.svg?token=YUG8EMH6Q8)](https://codecov.io/gh/jsuef/country)
+[![License](https://img.shields.io/npm/l/@jsuef/country.svg?style=flat-square)](https://github.com/jsuef/country/blob/main/LICENSE)
+[![Bundle size](https://img.shields.io/bundlephobia/min/@jsuef/country?style=flat-square)](https://bundlephobia.com/result?p=@jsuef/country)
 
 ## Versions
-![Stable Version](https://img.shields.io/github/v/release/jsuef/github-lib-template?label=Stable&labelColor=green)
-![GitHub Release](https://img.shields.io/github/v/release/jsuef/github-lib-template?label=RC&include_prereleases&filter=*rc*&logoSize=diago)
-![GitHub Release](https://img.shields.io/github/v/release/jsuef/github-lib-template?label=Beta&include_prereleases&filter=*beta*&logoSize=diago)
+![Stable Version](https://img.shields.io/github/v/release/jsuef/country?label=Stable&labelColor=green)
+![GitHub Release](https://img.shields.io/github/v/release/jsuef/country?label=RC&include_prereleases&filter=*rc*&logoSize=diago)
+![GitHub Release](https://img.shields.io/github/v/release/jsuef/country?label=Beta&include_prereleases&filter=*beta*&logoSize=diago)
 
 ## Also available in other languages
 
-[![Go Implementation](https://img.shields.io/badge/Go-github--lib--template-00ADD8?logo=Go&logoColor=white)](https://github.com/gouef/github-lib-template)
-[![PHP Implementation](https://img.shields.io/badge/PHP-github--lib--template-4F5D95?logo=php&logoColor=white)](https://github.com/phpuef/github-lib-template)
-[![JavaScript Implementation](https://img.shields.io/badge/JavaScript-github--lib--template-f1e05a?logo=javascript&logoColor=black)](https://github.com/jsuef/github-lib-template)
+[![Go Implementation](https://img.shields.io/badge/Go-country-00ADD8?logo=Go&logoColor=white)](https://github.com/gouef/country)
+[![PHP Implementation](https://img.shields.io/badge/PHP-country-4F5D95?logo=php&logoColor=white)](https://github.com/phpuef/country)
+[![JavaScript Implementation](https://img.shields.io/badge/JavaScript-country-f1e05a?logo=javascript&logoColor=black)](https://github.com/jsuef/country)
 
-## Introduction
 
-This is template repository for new libraries
+## Installation
 
-## Important
+To use this package in your project, add it using NPM:
 
-- Edit go.mod and rename to your package module
-- Uncomment .github/workflows/tests.yml
+```bash
+npm i @jsuef/country
+```
 
 ## Contributing
 
