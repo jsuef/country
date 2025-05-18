@@ -1,8 +1,14 @@
 {
   "name": "@jsuef/country",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "country list by ISO 3166-1",
-  "keywords": ["country", "iso", "3166", "3166-1", "list"],
+  "keywords": [
+    "country",
+    "iso",
+    "3166",
+    "3166-1",
+    "list"
+  ],
   "main": "index.js",
   "directories": {
     "doc": "docs"
