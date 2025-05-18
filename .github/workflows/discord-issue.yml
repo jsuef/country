@@ -1,8 +1,9 @@
 name: Discord Issue Notification
 
 on:
-  issues:
-    types: [opened, closed]
+  workflow_dispatch:
+#  issues:
+#    types: [opened, closed]
 
 jobs:
   notify-discord:

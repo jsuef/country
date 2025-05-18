@@ -1,8 +1,9 @@
 name: Discord Pull Request Notification
 
 on:
-  pull_request:
-    types: [opened, reopened, closed]
+  workflow_dispatch:
+#  pull_request:
+#    types: [opened, reopened, closed]
 
 jobs:
   notify-discord:
