@@ -1,9 +1,8 @@
-name: npmjs-push.yml
+name: Push to NPMJS
 on:
-  workflow_run:
-    workflows: ["Create Release"]
-    types:
-      - completed
+  push:
+    tags:
+      - 'v*.*.*'
 
 jobs:
   version-or-publish:
