@@ -1,5 +1,5 @@
 {
-  "name": "@jsuef/github-lib-template",
+  "name": "@jsuef/country",
   "version": "1.0.0",
   "description": "<img align=right width=\"168\" src=\"docs/gouef_logo.png\">",
   "main": "index.js",
@@ -14,14 +14,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jsuef/github-lib-template.git"
+    "url": "git+https://github.com/jsuef/country.git"
   },
   "author": "Jan Galek",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jsuef/github-lib-template/issues"
+    "url": "https://github.com/jsuef/country/issues"
   },
-  "homepage": "https://github.com/jsuef/github-lib-template#readme",
+  "homepage": "https://github.com/jsuef/country#readme",
   "devDependencies": {
     "@changesets/cli": "^2.29.4",
     "@types/jest": "^29.5.14",
