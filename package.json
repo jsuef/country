@@ -1,6 +1,6 @@
 {
   "name": "@jsuef/country",
-  "version": "1.0.0",
+  "version": "0.1.6",
   "description": "country list by ISO 3166-1",
   "main": "index.js",
   "directories": {
