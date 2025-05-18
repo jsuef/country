@@ -29,7 +29,6 @@ jobs:
 
       - name: Install dependencies
         run: npm install
-        working-directory: js
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
