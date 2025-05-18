@@ -1,7 +1,7 @@
 {
   "name": "@jsuef/country",
   "version": "1.0.0",
-  "description": "<img align=right width=\"168\" src=\"docs/gouef_logo.png\">",
+  "description": "country list by ISO 3166-1",
   "main": "index.js",
   "directories": {
     "doc": "docs"
