@@ -21,6 +21,24 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Set version from tag
+        run: |
+          VERSION="${GITHUB_REF##*/}"
+          VERSION="${VERSION#v}"
+          echo "📦 Version from tag: $VERSION"
+          npm version "$VERSION" --no-git-tag-version
+
+      - name: Commit updated version
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git commit -am "chore: release v${GITHUB_REF##*/}"
+          git push
+
+
+      - name: Build package
+        run: npm run build
+
       - name: Create release PR or publish
         uses: changesets/action@v1
         with:
